@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="286c4db7-8a37-4501-8d96-0d4c9824a352" name="Changes" comment="test12">
-      <change afterPath="$PROJECT_DIR$/laby/Komendy do zmiany gita" afterDir="false" />
+    <list default="true" id="286c4db7-8a37-4501-8d96-0d4c9824a352" name="Changes" comment="test123">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laby/Lab1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/laby/Lab1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laby/test" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +97,7 @@
       <workItem from="1759661608292" duration="3517000" />
       <workItem from="1759665297777" duration="795000" />
       <workItem from="1759666122095" duration="330000" />
-      <workItem from="1759772878533" duration="572000" />
+      <workItem from="1759772878533" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="pd">
       <option name="closed" value="true" />
@@ -145,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759773359182</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test123">
+      <option name="closed" value="true" />
+      <created>1759773477718</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759773477718</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +166,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="test1" />
     <MESSAGE value="test12" />
-    <option name="LAST_COMMIT_MESSAGE" value="test12" />
+    <MESSAGE value="test123" />
+    <option name="LAST_COMMIT_MESSAGE" value="test123" />
   </component>
 </project>
