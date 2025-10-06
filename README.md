@@ -1,38 +1,35 @@
-# 🤖 Systemy Wyszukiwania i Klasyfikowania Danych Oparte na Sztucznej Inteligencji - Laboratorium
-
-## 📚 Opis Przedmiotu
-
-To repozytorium zawiera materiały, ćwiczenia i rozwiązania laboratoryjne z przedmiotu **Systemy Wyszukiwania i Klasyfikowania Danych Oparte na Sztucznej Inteligencji**.
-
-Celem zajęć jest zapoznanie się z kluczowymi technikami przetwarzania języka naturalnego (NLP), uczenia maszynowego oraz metodami ekstrakcji, indeksowania i klasyfikacji informacji z dużych zbiorów danych tekstowych.
+# 🤯 Systemy Wyszukiwania i Klasyfikowania Danych Oparte na SI
 
 ---
 
-## ✨ Kluczowe Tematy
+### 🚀 O co tu chodzi?
 
-Przedmiot obejmuje m.in. następujące zagadnienia:
+To jest repozytorium-magazyn, w którym lądują **wszystkie kody, notatki i sprawozdania** z laborków z przedmiotu: **Systemy Wyszukiwania i Klasyfikowania Danych Oparte na Sztucznej Inteligencji**.
 
-* **Wstępne Przetwarzanie Tekstu (Pre-processing):** Tokenizacja, Stemming, Lemmatyzacja, Stop Words Removal.
-* **Reprezentacja Tekstu:** Modele Worek Słów (Bag of Words), TF-IDF.
-* **Klasyfikacja Danych:** Wykorzystanie algorytmów takich jak Naive Bayes, Support Vector Machines (SVM).
-* **Metryki Oceny:** Precyzja, Pełność, F1-Score.
-* **Zastosowanie gotowych modeli i bibliotek:** Scikit-learn, NLTK, Gensim.
+### 📚 Co nas tu czeka?
+
+Pracujemy głównie z **tekstem** i robimy z niego **wektory**, żeby komputery zrozumiały, co w trawie piszczy.
+
+| Lab | Temat (wg Sylabusa) | Studenckie Tłumaczenie |
+| :--- | :--- | :--- |
+| **L1/L2** | Wyszukiwanie neuronowe / Osadzanie (Embeddings) | Zmieniamy tekst na magiczne liczby (wektory), żeby SI mogła go "zobaczyć". |
+| **L3** | Przygotowanie danych | **To, co masz w tym repo!** Czyszczenie, tokenizacja, usuwanie śmieci. |
+| **L4/L5** | Silnik wektorowy | Robimy super-szybką bazę danych, która szuka podobieństw, a nie słów kluczowych. |
+| **L6/L11** | Interfejs API / Użytkownika | Wiesz, żeby to nie był tylko czarny ekran. Robimy front i endpointy! |
+| **L8/L10** | Wyszukiwarka Multimodalna | Łączymy tekst, obrazki, PDF-y i każemy im ze sobą gadać. |
 
 ---
 
-## 🛠️ Wymagane Biblioteki
+### ⚙️ Sprzęt i Narzędzia (Must Have)
 
-Do uruchomienia i pracy z ćwiczeniami wymagane są następujące biblioteki w Pythonie:
+Do pracy potrzebujesz standardowy zestaw AI/NLP:
 
-| Biblioteka | Opis |
-| :--- | :--- |
-| `numpy` | Podstawowe operacje na tablicach i macierzach. |
-| `scikit-learn` | Narzędzia do uczenia maszynowego (klasyfikatory, wskaźniki). |
-| `nltk` | Narzędzia do przetwarzania języka naturalnego (tokenizacja, stop words). |
-| `re` | Obsługa wyrażeń regularnych. |
+1.  **Python 3.x**
+2.  **Scikit-learn** (bo klasyfikacja!)
+3.  **NLTK** (do czyszczenia i tokenizacji)
+4.  **numpy** (do liczb)
+5.  **re** (do ogarniania, co jest literą, a co nie)
 
-### Instalacja
-Możesz zainstalować wymagane pakiety za pomocą pip:
-
+Najłatwiej to zainstalować w środowisku wirtualnym:
 ```bash
-pip install numpy scikit-learn nltk
+pip install scikit-learn nltk numpy
